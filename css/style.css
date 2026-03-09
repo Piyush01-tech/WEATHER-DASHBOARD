@@ -1,0 +1,64 @@
+body{
+    background: #C5D9BA;
+    padding-left: 10px;
+}
+
+.search_div, .results_div{
+    padding:20px;
+}
+
+.search_div{
+    background:#8EB3A2;
+    border-radius: 8px;
+}
+
+#five_day_weather{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 992px){
+    .card{
+        max-width: 200px;
+    }    
+}
+.card{
+    margin: 10px;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.current_icon{
+    padding-left:10px;
+}
+
+li.past_city {
+    background: #546E75;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+div#city_details {
+    border: #666 solid 1px;
+    background:#C5D9BA;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+#form_submit{
+    background: #42323a;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.card-section{
+    background: #6C8C7D;
+    border-radius: 8px;
+}

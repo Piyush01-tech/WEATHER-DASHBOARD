@@ -1,0 +1,6 @@
+Show the search on the page
+When a city is entered and the form is submitted
+get the latitude and longitude of the city using the geocode api
+once we have the latitude and longitude, put that into the weather api 
+and get the weather for that location
+Display the required details from the response onto the screen
