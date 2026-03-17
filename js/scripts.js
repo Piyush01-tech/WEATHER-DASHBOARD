@@ -1,4 +1,7 @@
-const BACKEND_URL = 'http://localhost:5000/api';
+const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+const BACKEND_URL = isLocal
+  ? 'http://localhost:5000/api'
+  : 'https://weather-dashboard-2r5w.onrender.com/api';
 let units = localStorage.getItem('weatherUnits') || 'metric';
 let currentQuery = '';
 let weatherHistory = JSON.parse(localStorage.getItem('weatherHistory')) || [];
